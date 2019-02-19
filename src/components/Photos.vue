@@ -1,6 +1,6 @@
 <template>
   <div class="photos">
-    <Photo v-for="photo in photos" :key="photo.id" photo="photo" />
+    <Photo v-for="photo in photos" :key="photo.id" :photo="photo.src" />
   </div>
 </template>
 
@@ -18,3 +18,13 @@ export default {
   }
 };
 </script>
+
+<style lang="scss">
+.photos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 7rem 0;
+  padding: 1rem;
+}
+</style>
