@@ -59,7 +59,7 @@ input[type="submit"] {
   border: 1px solid $color-white;
   margin-right: 3rem;
   text-transform: uppercase;
-  transition: all 1s;
+  transition: all 0.5s;
 
   &:hover {
     box-shadow: 0 4rem 5rem rgba($color-black, 0.4);
