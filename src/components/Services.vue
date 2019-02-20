@@ -2,50 +2,50 @@
   <section class="services">
     <div class="services__service">
       <i class="ion-ios-camera icon-large" />
-      <h2>Photography</h2>
+      <h2>Home Photography</h2>
       <p>
         Often searching out the graphical symetry in chaos, while stil
         maintaining the personality and emotion of the subject
       </p>
     </div>
     <div class="services__service">
-      <i class="ion-ios-bookmark icon-large" />
-      <h2>Branding</h2>
+      <i class="ion-ios-paw icon-large" />
+      <h2>Wildlife Photography</h2>
       <p>
-        Often searching out the graphical symetry in chaos, while stil
-        maintaining the personality and emotion of the subject
+        We capture the best of nature in environments that have never been
+        explored, opening doors to exhilarating natural experiences
       </p>
     </div>
     <div class="services__service">
       <i class="ion-logo-youtube icon-large" />
-      <h2>Movies</h2>
+      <h2>Video Archives</h2>
       <p>
-        Often searching out the graphical symetry in chaos, while stil
-        maintaining the personality and emotion of the subject
+        We make recordings of your child as they grow, keeping a documentary of
+        events that give them a peep into their childhood even as adults.
       </p>
     </div>
     <div class="services__service">
-      <i class="ion-ios-pie icon-large" />
-      <h2>Marketing</h2>
+      <i class="ion-ios-desktop icon-large" />
+      <h2>Branding</h2>
       <p>
-        Often searching out the graphical symetry in chaos, while stil
-        maintaining the personality and emotion of the subject
+        We give your brand a distinct identity, taking it apart from crowd and
+        make your products visible wherever they are
       </p>
     </div>
     <div class="services__service">
       <i class="ion-ios-chatboxes icon-large" />
       <h2>Consulting</h2>
       <p>
-        Often searching out the graphical symetry in chaos, while stil
-        maintaining the personality and emotion of the subject
+        If you have digital problems, we are the wizards. Reach out to us for
+        advice on digital designs, photography, movie making and video editing.
       </p>
     </div>
     <div class="services__service">
-      <i class="ion-ios-cut icon-large" />
-      <h2>Editing</h2>
+      <i class="ion-ios-color-palette icon-large" />
+      <h2>Graphics Design</h2>
       <p>
-        Often searching out the graphical symetry in chaos, while stil
-        maintaining the personality and emotion of the subject
+        Nothing adds color to and event like a well designed card. Meet us for
+        your spectacular desings for all sorts of cards and banners.
       </p>
     </div>
   </section>
@@ -63,7 +63,8 @@ $color-light-blue: #a7d0df;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin-top: 8rem;
+  background-color: #fafafa;
+  padding: 5rem 1rem;
 
   &__service {
     width: 33%;

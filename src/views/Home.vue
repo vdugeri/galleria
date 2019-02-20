@@ -5,6 +5,7 @@
     <Photos />
     <BookSession />
     <Services />
+    <Team />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import About from "@/views/About.vue";
 import Photos from "@/components/Photos.vue";
 import BookSession from "@/components/BookSession.vue";
 import Services from "@/components/Services";
+import Team from "@/components/Team";
 
 export default {
   components: {
@@ -21,7 +23,8 @@ export default {
     About,
     Photos,
     BookSession,
-    Services
+    Services,
+    Team
   }
 };
 </script>

@@ -13,6 +13,10 @@ import image8 from "@/assets/photos-8.jpg";
 import image9 from "@/assets/photos-9.jpg";
 import image10 from "@/assets/photos-10.jpg";
 
+import member1 from "@/assets/team-members/member-1.jpg";
+import member2 from "@/assets/team-members/member-2.jpg";
+import member3 from "@/assets/team-members/member-3.jpg";
+
 export default new Vuex.Store({
   state: {
     photos: [
@@ -26,6 +30,12 @@ export default new Vuex.Store({
       { id: 8, src: image8 },
       { id: 9, src: image9 },
       { id: 10, src: image10 }
+    ],
+
+    members: [
+      { id: 1, src: member1 },
+      { id: 2, src: member2 },
+      { id: 3, src: member3 }
     ]
   },
   mutations: {},

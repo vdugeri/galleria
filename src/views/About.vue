@@ -49,7 +49,7 @@ $color-dark-grey: #777;
     font-size: 1.8rem;
     line-height: 3rem;
     font-weight: 400;
-    width: 70%;
+    width: 40%;
     margin: 4rem 0;
   }
 }

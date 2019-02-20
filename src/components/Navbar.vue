@@ -2,7 +2,7 @@
   <div class="navbar">
     <div class="navbar__left">
       <router-link to="/" class="nav-item">
-        <h1>JB</h1>
+        <span>JB</span>
       </router-link>
     </div>
     <div class="navbar__right">
@@ -19,37 +19,49 @@ export default {};
 </script>
 
 <style lang="scss">
-$color-dark-grey: #777;
+$color-dark-grey: #373b44;
 $color-dark-grey-2: #555;
+$color-white: #fff;
 $color-primary: #7a9cc6;
 
 .navbar {
   display: flex;
   justify-content: space-between;
-  height: 12rem;
+  padding: 0 2rem;
 
-  h1 {
+  &__left {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &__right {
+    width: 40%;
+  }
+  span {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 4rem;
     letter-spacing: 0.2rem;
     margin-left: 2rem;
     display: inline-block;
+    margin-top: -2rem;
   }
 }
 
 .nav-item:link,
 .nav-item:visited {
   display: inline-block;
-  padding: 2rem;
+  padding: 1rem 3rem;
   text-decoration: none;
   font-weight: 300;
-  font-size: 2rem;
-  color: $color-dark-grey;
+  font-size: 1.8rem;
+  color: $color-white;
+  text-transform: uppercase;
+  margin-top: 2rem;
 }
 
 .nav-item:active,
 .nav-item:hover {
-  color: $color-dark-grey-2;
-  border-bottom: 4px solid $color-primary;
+  border-bottom: 2px solid $color-primary;
 }
 </style>

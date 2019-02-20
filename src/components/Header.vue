@@ -1,5 +1,6 @@
 <template>
   <div class="hero">
+    <Navbar />
     <div class="hero__text-box">
       <h1>See the beauty in Africa</h1>
       <router-link to="#" class="btn">Explore</router-link>
@@ -9,7 +10,12 @@
 </template>
 
 <script>
-export default {};
+import Navbar from "@/components/Navbar.vue";
+export default {
+  components: {
+    Navbar
+  }
+};
 </script>
 
 <style lang="scss">

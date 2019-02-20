@@ -17,10 +17,10 @@ $color-white: #fff;
 .session {
   background-color: $color-dark-grey;
   width: 100%;
-  height: 25rem;
+  height: 28rem;
   display: flex;
   flex-direction: column;
-  margin-bottom: 2rem;
+  padding-bottom: 2rem;
 
   span {
     text-transform: uppercase;
