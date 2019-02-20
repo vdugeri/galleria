@@ -8,6 +8,7 @@
     <Team />
     <Stats />
     <Testimonial />
+    <Footer />
   </div>
 </template>
 
@@ -20,6 +21,7 @@ import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Stats from "@/components/Stats";
 import Testimonial from "@/components/Testimonial";
+import Footer from "@/components/Footer";
 
 export default {
   components: {
@@ -30,7 +32,8 @@ export default {
     Services,
     Team,
     Stats,
-    Testimonial
+    Testimonial,
+    Footer
   }
 };
 </script>

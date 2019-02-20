@@ -5,7 +5,8 @@
       <TeamMember
         v-for="member in members"
         :key="member.id"
-        :photo="member.src"
+        :photo="member.photo"
+        :name="member.name"
       />
     </div>
   </section>

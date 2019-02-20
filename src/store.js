@@ -33,9 +33,9 @@ export default new Vuex.Store({
     ],
 
     members: [
-      { id: 1, src: member1 },
-      { id: 2, src: member2 },
-      { id: 3, src: member3 }
+      { id: 1, photo: member1, name: "John Smith" },
+      { id: 2, photo: member2, name: "Jenna Kyle" },
+      { id: 3, photo: member3, name: "Alan Smith" }
     ]
   },
   mutations: {},

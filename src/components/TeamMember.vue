@@ -16,7 +16,7 @@
       </a>
     </div>
     <div class="team__member-description">
-      <h2>Jon Smith</h2>
+      <h2>{{ name }}</h2>
       <h3>Photographer</h3>
     </div>
   </section>
@@ -24,7 +24,7 @@
 
 <script>
 export default {
-  props: ["photo"]
+  props: ["photo", "name"]
 };
 </script>
 
