@@ -175,6 +175,10 @@ $color-secondary: #786eb3;
       padding: 2rem;
       text-align: left;
 
+      h2 {
+        text-transform: uppercase;
+      }
+
       .icon-small {
         font-size: 2rem;
         margin-right: 1rem;
