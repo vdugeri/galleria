@@ -6,16 +6,18 @@
     <BookSession />
     <Services />
     <Team />
+    <Stats />
   </div>
 </template>
 
 <script>
-import Header from "@/components/Header.vue";
-import About from "@/views/About.vue";
-import Photos from "@/components/Photos.vue";
-import BookSession from "@/components/BookSession.vue";
+import Header from "@/components/Header";
+import About from "@/views/About";
+import Photos from "@/components/Photos";
+import BookSession from "@/components/BookSession";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
+import Stats from "@/components/Stats";
 
 export default {
   components: {
@@ -24,7 +26,8 @@ export default {
     Photos,
     BookSession,
     Services,
-    Team
+    Team,
+    Stats
   }
 };
 </script>
