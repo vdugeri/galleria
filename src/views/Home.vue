@@ -7,6 +7,7 @@
     <Services />
     <Team />
     <Stats />
+    <Testimonial />
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import BookSession from "@/components/BookSession";
 import Services from "@/components/Services";
 import Team from "@/components/Team";
 import Stats from "@/components/Stats";
+import Testimonial from "@/components/Testimonial";
 
 export default {
   components: {
@@ -27,7 +29,8 @@ export default {
     BookSession,
     Services,
     Team,
-    Stats
+    Stats,
+    Testimonial
   }
 };
 </script>
