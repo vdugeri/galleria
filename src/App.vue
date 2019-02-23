@@ -31,7 +31,6 @@ body {
   line-height: 1.7;
   color: $color-dark-grey;
   box-sizing: border-box;
-  text-rendering: optimizeLegibility;
 }
 
 html {

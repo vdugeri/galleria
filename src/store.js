@@ -17,6 +17,8 @@ import member1 from "@/assets/team-members/member-1.jpg";
 import member2 from "@/assets/team-members/member-2.jpg";
 import member3 from "@/assets/team-members/member-3.jpg";
 
+import profileImage from "@/assets/team-members/member-1.jpg";
+
 export default new Vuex.Store({
   state: {
     photos: [
@@ -36,7 +38,9 @@ export default new Vuex.Store({
       { id: 1, photo: member1, name: "John Smith" },
       { id: 2, photo: member2, name: "Jenna Kyle" },
       { id: 3, photo: member3, name: "Alan Smith" }
-    ]
+    ],
+
+    profileImage
   },
   mutations: {},
   actions: {}

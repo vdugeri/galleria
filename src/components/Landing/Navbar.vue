@@ -7,8 +7,8 @@
     </div>
     <div class="navbar__right">
       <router-link to="/" class="nav-item">Home</router-link>
-      <router-link to="/" class="nav-item">Photo</router-link>
-      <router-link to="/" class="nav-item">Journal</router-link>
+      <a href="#photos" class="nav-item">Photos</a>
+      <a href="#services" class="nav-item">Services</a>
       <a href="#about" class="nav-item">About</a>
     </div>
   </div>

@@ -1,11 +1,11 @@
 <template>
-  <div class="photos">
+  <div class="photos" id="photos">
     <Photo v-for="photo in photos" :key="photo.id" :photo="photo.src" />
   </div>
 </template>
 
 <script>
-import Photo from "@/components/Photo.vue";
+import Photo from "@/components/Landing/Photo.vue";
 export default {
   components: {
     Photo

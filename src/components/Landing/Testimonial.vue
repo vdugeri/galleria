@@ -17,6 +17,7 @@ export default {};
 <style lang="scss">
 $color-white: #fff;
 $color-tertiary: #93cce0;
+$color-dark-grey: #373b44;
 
 .testimonial {
   background-color: $color-tertiary;
@@ -25,7 +26,7 @@ $color-tertiary: #93cce0;
   blockquote {
     line-height: 145%;
     padding: 2%;
-    color: $color-white;
+    color: $color-dark-grey;
     position: relative;
     padding-top: 12rem;
     display: flex;

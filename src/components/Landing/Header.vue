@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Navbar from "@/components/Navbar.vue";
+import Navbar from "@/components/Landing/Navbar.vue";
 export default {
   components: {
     Navbar
@@ -29,7 +29,7 @@ $color-dark-grey: #777;
       rgba($color-black, 0.4),
       rgba($color-black, 0.7)
     ),
-    url(../assets/hero-image.jpg);
+    url(../../assets/hero-image.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;

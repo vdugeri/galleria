@@ -1,5 +1,5 @@
 <template>
-  <section class="services">
+  <section class="services" id="services">
     <div class="services__service">
       <i class="ion-ios-camera icon-large" />
       <h2>Home Photography</h2>
