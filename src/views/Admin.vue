@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import SideNav from "@/components/Admin/SideNav";
+import SideNav from "@/components/Shared/SideNav";
 export default {
   components: {
     SideNav

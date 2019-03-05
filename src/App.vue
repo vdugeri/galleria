@@ -1,15 +1,8 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
     <router-view />
   </div>
 </template>
-
-<script>
-export default {
-  components: {}
-};
-</script>
 
 <style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700");

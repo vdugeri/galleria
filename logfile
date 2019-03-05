@@ -1,0 +1,8 @@
+LOG:  database system was shut down at 2019-02-13 13:03:02 WAT
+LOG:  MultiXact member wraparound protections are now enabled
+LOG:  autovacuum launcher started
+LOG:  database system is ready to accept connections
+ERROR:  duplicate key value violates unique constraint "users_pkey"
+DETAIL:  Key (id)=(9) already exists.
+CONTEXT:  COPY users, line 1
+STATEMENT:  COPY  public.users ( id, username, email_address, password, full_name, created_at, updated_at ) FROM STDIN   CSV   QUOTE '"' ESCAPE '''';
